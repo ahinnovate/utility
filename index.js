@@ -6,15 +6,9 @@
 
     let timestamp = require('./lib/timestamp');
 
-    let logger = require('logger_async');
+    let errorResponse = require("@ahinnovate/errorresponse_async")();
 
-    let errorResponse = require("errorresponse_async")();
-
-    let successResponse = require("successresponse_async")();
-
-    module.exports.log = (message, tags, config) => {
-        return logger.consoleMessage(message, tags, config);
-    };
+    let successResponse = require("@ahinnovate/successresponse_async")();
 
     module.exports.createResponseObj = (responseObj, errorDescriptor, successDescriptor) => {
         let response = (!responseObj || typeof responseObj != "object") ? { "status": 400, "responseData": { "message": "NO RESPONSE" }} : responseObj;

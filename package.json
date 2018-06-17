@@ -1,0 +1,25 @@
+{
+  "name": "@ahinnovate/utility",
+  "version": "0.0.1",
+  "description": "utility moment",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahinnovate/utility.git"
+  },
+  "keywords": [
+    "utility"
+  ],
+  "author": "ahinnovate",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ahinnovate/utility/issues"
+  },
+  "homepage": "https://github.com/ahinnovate/utility#readme"
+}
